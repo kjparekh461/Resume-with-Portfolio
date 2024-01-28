@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!---- FONTS ---->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <style>
+    * {margin: 0; padding: 0;  font-family: "Poppins", sans-serif;  font-weight: 400;  font-style: normal; font-size: 15px;}
+    main{display: grid; max-width: 900px; width: 100%; margin: auto; box-sizing: border-box; overflow: hidden; grid-template-columns: 2fr 4fr; border-radius: 20px;}
+
+    section:nth-of-type(1){background-color: rgb(138, 193, 249); display: grid;}
+    section:nth-of-type(2){background-color: #eee; display: grid;}
+    article {padding: 20px;}
+    .main_con {padding: 20px;}
+    .profile_img {width: 200px; height: 200px; margin: auto; border-radius: 80%; background: #ccc; overflow: hidden; border: 4px solid #fff;}
+    .profile_img img {width: 100%; margin-left: 18px;}
+
+    .main_head {display: grid; grid-template-columns: 8fr 2fr;}
+    .main_head div {}
+    .main_head div:nth-of-type(2) img {width: 80px; height: 80px; border-radius: 80%;}
+    h1 {font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; font-size: 2.5em;}
+    h2 {font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; font-size: 1.7em;}
+    h3 a {font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; font-size: 1.1em; color:#0C67C1;}
+    p {font-family: "Poppins", sans-serif; font-weight: 300; font-style: normal; font-size: 1em;}
+    a {text-decoration: none; color: black;}
+
+    .contact_details {display: grid; grid-template-columns: 1fr 9fr; grid-gap: 10px; padding: 20px 0;}
+    
+    .contact_details div:nth-of-type(1){background-color: #fff; border-radius: 30px; text-align: 
+      center; padding: 10px 0;}
+    .contact_details div:nth-of-type(1) img {width: 20px; padding: 6px;}
+    .contact_details div:nth-of-type(2){padding: 10px 0;}
+    .contact_details div:nth-of-type(2) p {padding: 7px 0; }
+
+    .education > ul {margin-left: 20px;}
+    .education > ul li > ul {margin-left: 20px;}
+    .education > ul li {padding: 10px 0;}
+    
+    .experiences > ul {margin-left: 20px;}
+    .experiences > ul ul {margin-left: 20px;}
+    .exp_company {display: grid; grid-template-columns: 1fr 1fr;}
+    .experiences ul li {padding: 0px 0;}
+    .experiences ul li p:nth-of-type(2) {padding: 10px 0;}
+
+    .ul_nav {display: grid; grid-template-columns: 1fr 1fr;}
+
+    .skills {display: grid; grid-template-columns: 1fr 1fr;}
+    
+hr {margin: 10px 0px;}
+
+    @media screen and (max-width: 412px){
+      main{width: 100%; margin: auto; grid-template-columns: 1fr;}
+      h1 {font-size: 1.5em;}
+      h2 {font-size: 1.2em;}
+      h3 a {font-size: 1em; color:#0C67C1;}
+      p {font-size: 1em;}
+      .exp_company { grid-template-columns: 1fr;}
+      h3 a {font-size: 1.3em;}
+      .skills {display: grid; grid-template-columns: 1fr;}
+      .skills progress {display: block; width: 100%;}
+    }
+
+  </style>
+</head>
+<body>
+  <main>
+
+    <section>
+      <article>
+
+        <div class="profile_img">
+          <img src="img/K.png" alt="">
+        </div>
+        <div class="contact_details">
+          <div>
+            <img src="img/phone.svg" />
+            <img src="img/mail.svg" />
+            <img src="img/location.svg" />
+            <img src="img/Cal.svg" />
+          </div>
+          <div>
+            <p>+91 94082 27683</p>
+            <p><a href="mailto:kjparekh461@gmail.com" target="_blank">kjparekh461@gmail.com</a></p>
+            <p>Gujarat, India</p>
+            <p>DOB: 20-09-1973</p>
+          </div>
+        </div>
+
+        <div class="education">
+          <h2>EDUCATION :</h2>
+          <ul>
+            <li>
+              <h3>H.S.C.</h3>
+              <P> Gujarat Education Board <br> Year: 1994 - 1995</P>
+            </li>
+            <li>
+              <h3>DTP Computer Operator</h3>
+              <P> Sprint Computer Education <br> Year: 2001 - 2002</P>
+              <ul>
+                <li>
+                  <a href="img/ITI certificate.jpg" target="_blank">Certificate link</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>Web Designer</h3>
+              <P> W3 School - online <br> Year: 2016 - 2018</P>
+              <ul>
+                <li>
+                  <a href="Certificate.html" target="_blank">Certificate link</a>
+                </li>
+              </ul>
+
+            </li>
+          </ul>
+
+          <h2>SUMMARY:</h2>
+          <p>Experienced with a strong background in print media and graphic design along with web design and digital media, aiming to transition into a front end developer role. As the ReactJS learning process continues, try to use design skills and creativity to create seamless and visually appealing web experiences.</p>
+
+          <h2 style="margin: auto;"><a style="font-size: 20px; font-weight: bold; color: #0C67C1;" href="https://kamleshparekh.in/"> MY PORTFOLIO LINK </a></h2>
+
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <div class="main_con">
+        <div class="main_head">
+          <div>
+            <h1>KAMLESH PAREKH</h1>
+            <h3>Graphic / Web Designer and Video Editor</h3>
+          </div>
+          <div>
+            <img src="img/Logo.svg"/>
+          </div>
+        </div>
+        <br><hr><br>
+        <div class="experiences">
+          <h2>EXPERIENCE :</h2>
+          <ul>
+
+            <li>
+              <div class="exp_company">
+                <h3><a href="https://cimcondigital.com/" target="_blank">CIMCON DIGITAL</a></h3>
+                <p>Sr.Graphic & UI-UX Designer</p>
+              </div>
+              <p><strong>WORKED PERIOD:</strong> 24 December 2018 to 12 April 2023</p>
+              <p>Executed digital media projects, encompassing social media, web design, and video editing.
+                 Developed brochures, newspaper advertisements, web designs, and web animations.
+                 Specialized in creating infographics and image animations.
+              </p>
+              <ul>
+                <li>
+                  <a href="https://kamleshparekh.in/data.html" target="_blank">
+                    Vector Animation (Adobe After Effect) 
+                  </a>
+                </li>
+                <li>
+                  <a href="video/Cement Industry Kiln 7-1 (1).m4v" target="_blank">
+                    Video with Animation (Adobe Premier Pro & Adobe After Effect) 
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+           <hr>
+
+            <li>
+              <div class="exp_company">
+                <h3><a href="https://www.height8tech.com/" target="_blank">HEIGHT8 TECHNOLOGIES</a></h3>
+                <p>UI-UX Designer</p>
+              </div>
+              <p><strong>WORKED PERIOD:</strong> 1 July 2016 to December 2018</p>
+              <p> Designed dimensional logos, advertisements, banners, brochures, and standees.
+                  Worked on web forms, websites, dashboard layouts, and mobile apps.
+                  Developed concepts and designs for diverse clients, including consumer products and cloud-based technologies.
+              </p>
+              <ul class="ul_nav">
+                <li>
+                  <a href="Mobile app.html" target="_blank">
+                    Mobile App Design
+                  </a>
+                </li>
+                <li>
+                  <a href="img/Brochure_2.pdf" target="_blank">
+                    Brochure Layout
+                  </a>
+                </li>
+                <li>
+                  <a href="img/Kamlesh_Parekh_relieving_exp_letter-(2).jpg" target="_blank">
+                    Experience Latter
+                  </a>
+                </li>
+                <li>
+                  <a href="https://kamleshparekh.in/Height8/index_2.html" target="_blank">
+                    Web Design Layout
+                  </a>
+                </li>
+              </ul>
+            </li>
+            
+            <hr>
+
+            <li>
+              <div class="exp_company">
+                <h3><a href="https://thegatewaycorp.com/" target="_blank">GATEWAY GROUP OF COMPANY</a></h3>
+                <p>Graphic Designer</p>
+              </div>
+              <p><strong>WORKED PERIOD:</strong> 2009 to 2012</p>
+              <p>Contributed to the print media of the Netherlands, focusing on magazine editing and editorial work.
+                 Proficient in InDesign, Illustrator, and Photoshop.
+              </p>
+            </li>
+
+            <hr>
+
+            <li>
+              <div class="exp_company">
+                <h3><a href="https://kamleshparekh.in/" target="_blank">FREELANCE WORK</a></h3>
+                <p>Graphic and Web Designer work</p>
+              </div>
+              <p><strong>WORKED PERIOD:</strong> 2009 to 2012</p>
+              <p>Contributed to the print media of the Netherlands, focusing on magazine editing and editorial work.
+                 Proficient in InDesign, Illustrator, and Photoshop.
+              </p>
+              <ul>
+                <li>
+                  <a href="https://kamleshparekh.in/Weblayout/index.html" target="_blank">
+                    Website Layout (XDuce Technology work) 
+                  </a>
+                </li>
+                <li>
+                  <a href="img/spa2.pdf" target="_blank">
+                    Spa Brochure (Cambay Hotel & Resort) 
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <hr>
+
+            <li>
+              <div class="exp_company">
+                <h3><a href="https://kamleshparekh.in/" target="_blank">SOFTWARE SKILLS</a></h3>
+              </div>
+              <div class="skills">
+                <div>
+                  <label for="file">Illustrator:</label>
+                  <progress id="file" value="98" max="100"> 32% </progress>
+                  <label for="file">Photoshop:</label>
+                  <progress id="file" value="98" max="100"> 32% </progress>
+                  <label for="file">Indesign:</label>
+                  <progress id="file" value="85" max="100"> 32% </progress>
+                  <label for="file">Corel Draw:</label>
+                  <progress id="file" value="99" max="100"> 32% </progress>
+                  <label for="file">Figma:</label>
+                  <progress id="file" value="80" max="100"> 32% </progress>
+                </div>
+                <div>
+                  <label for="file">After Effect:</label>
+                  <progress id="file" value="75" max="100"> 32% </progress>
+                  <label for="file">Premier Pro:</label>
+                  <progress id="file" value="80" max="100"> 32% </progress>
+                  <label for="file">HTML & CSS:</label>
+                  <progress id="file" value="85" max="100"> 32% </progress>
+                  <label for="file">JS & Jquary:</label>
+                  <progress id="file" value="70" max="100"> 32% </progress>
+                  <label for="file">Bootstrap:</label>
+                  <progress id="file" value="80" max="100"> 32% </progress>
+                </div>
+              </div>
+      
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+
+      </div>
+    </section>
+
+  </main>
+</body> 
+</html>
