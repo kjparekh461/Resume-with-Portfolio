@@ -23,7 +23,7 @@
       center; padding: 10px 0;}
     .contact_details div:nth-of-type(1) img {width: 20px; padding: 6px;}
     .contact_details div:nth-of-type(2){padding: 10px 0;}
-    .contact_details div:nth-of-type(2) p {padding: 7px 0; }
+    .contact_details div:nth-of-type(2) p {padding: 7px 0;}
 
     .education > ul {margin-left: 20px;}
     .education > ul li > ul {margin-left: 20px;}
