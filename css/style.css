@@ -1,0 +1,82 @@
+* {margin: 0; padding: 0;  font-family: "Poppins", sans-serif;  font-weight: 400;  font-style: normal; font-size: 15px;}
+    main{display: grid; max-width: 900px; width: 100%; margin: auto; box-sizing: border-box; overflow: hidden; grid-template-columns: 2fr 4fr; background-color: #f7f7f7;}
+
+    section:nth-of-type(1){background-color: rgb(160, 207 , 255); display: grid;}
+    section:nth-of-type(2){display: grid;}
+    article {padding: 20px;}
+    .main_con {padding: 20px;}
+    .profile_img {width: 200px; height: 200px; margin: auto; border-radius: 80%; background: #ccc; overflow: hidden; border: 4px solid #fff;}
+    .profile_img img {width: 100%; margin-left: 18px;}
+
+    .main_head {display: grid; grid-template-columns: 8fr 2fr;}
+    .main_head div {}
+    .main_head div:nth-of-type(2) img {width: 80px; height: 80px; border-radius: 80%;}
+    h1 {font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; font-size: 2.5em;}
+    h2 {font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; font-size: 1.7em;}
+    h3 a {font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; font-size: 1.1em; color:#0C67C1;}
+    p {font-family: "Poppins", sans-serif; font-weight: 300; font-style: normal; font-size: 1em;}
+    a {text-decoration: none; color: black;}
+
+    .contact_details {display: grid; grid-template-columns: 1fr 9fr; grid-gap: 10px; padding: 20px 0;}
+    
+    .contact_details div:nth-of-type(1){background-color: #fff; border-radius: 30px; text-align: 
+      center; padding: 10px 0;}
+    .contact_details div:nth-of-type(1) img {width: 20px; padding: 6px;}
+    .contact_details div:nth-of-type(2){padding: 10px 0;}
+    .contact_details div:nth-of-type(2) p {padding: 7px 0; }
+
+    .education > ul {margin-left: 20px;}
+    .education > ul li > ul {margin-left: 20px;}
+    .education > ul li {padding: 10px 0;}
+    
+    .experiences > ul {margin-left: 20px;}
+    .experiences > ul ul {margin-left: 20px;}
+    .exp_company {display: grid; grid-template-columns: 1fr 1fr;}
+    .experiences ul li {padding: 0px 0;}
+    .experiences ul li p:nth-of-type(2) {padding: 10px 0;}
+
+    .ul_nav {display: grid; grid-template-columns: 1fr 1fr;}
+
+    .skills {display: grid; grid-template-columns: 1fr 1fr;}
+    
+hr {margin: 10px 0px;}
+
+
+
+
+.icon-bar {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.icon-bar a {
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 13px;
+  background: ;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {background: #3B5998;   color: white; border-radius: 80%;}
+.twitter { background: #55ACEE; color: white; border-radius: 80%;}
+.github { background: #dd4b39; color: white; border-radius: 80%;}
+.linkedin { background: #007bb5; color: white; border-radius: 80%;}
+
+    @media screen and (max-width: 390px){
+      section:nth-of-type(1) {margin-top: 100px; border-radius: 40px;}
+      .profile_img {margin-top: -100px;}
+      main{width: 100%; margin: auto; grid-template-columns: 1fr;}
+      h1 {font-size: 1.5em;}
+      h2 {font-size: 1.2em;}
+      h3 a {font-size: 1em; color:#0C67C1;}
+      p {font-size: 1em;}
+      .exp_company { grid-template-columns: 1fr;}
+      h3 a {font-size: 1.3em;}
+      .skills {display: grid; grid-template-columns: 1fr;}
+      .skills progress {display: block; width: 100%;}
+    }
