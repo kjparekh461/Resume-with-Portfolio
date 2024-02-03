@@ -1,5 +1,5 @@
 * {margin: 0; padding: 0;  font-family: "Poppins", sans-serif;  font-weight: 400;  font-style: normal; font-size: 15px;}
-    main{display: grid; max-width: 900px; width: 100%; margin: auto; box-sizing: border-box; overflow: hidden; grid-template-columns: 2fr 4fr; background-color: #f7f7f7;}
+    main{display: grid; max-width: 900px; width: 100%; margin: auto; box-sizing: border-box; overflow: hidden; grid-template-columns: 1fr; background-color: #f7f7f7;}
 
     section:nth-of-type(1){background-color: rgb(160, 207 , 255); display: grid;}
     section:nth-of-type(2){display: grid;}
@@ -78,5 +78,5 @@ hr {margin: 10px 0px;}
       .exp_company { grid-template-columns: 1fr;}
       h3 a {font-size: 1.3em;}
       .skills {display: grid; grid-template-columns: 1fr;}
-      .skills progress {display: block; width: 100%;}
+      .skills progress {display: block; width: 100%; border:none;}
     }
