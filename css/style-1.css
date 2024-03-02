@@ -3,7 +3,7 @@
     padding:0;
     font-family: "Roboto", sans-serif; font-weight: 400; font-style: normal; font-size: 14px;
 }
-body {max-width: 400px; width: 100%;}
+body {max-width: 400px; width: 100%; margin:auto;}
 .container {background: linear-gradient(90deg, hsla(227, 75%, 14%, 1) 0%, hsla(214, 87%, 28%, 1) 42%, hsla(204, 88%, 49%, 1) 100%);
   background: -moz-linear-gradient(90deg, hsla(227, 75%, 14%, 1) 0%, hsla(214, 87%, 28%, 1) 42%, hsla(204, 88%, 49%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(227, 75%, 14%, 1) 0%, hsla(214, 87%, 28%, 1) 42%, hsla(204, 88%, 49%, 1) 100%); position: relative; z-index: -2;
