@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif; font-weight: 400; font-style: normal; font-size: 14px;
+}
+body {}
+.container {background: linear-gradient(90deg, hsla(227, 75%, 14%, 1) 0%, hsla(214, 87%, 28%, 1) 42%, hsla(204, 88%, 49%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(227, 75%, 14%, 1) 0%, hsla(214, 87%, 28%, 1) 42%, hsla(204, 88%, 49%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(227, 75%, 14%, 1) 0%, hsla(214, 87%, 28%, 1) 42%, hsla(204, 88%, 49%, 1) 100%); position: relative; z-index: -2;
+  border-radius: 0 0 70px 70px;
+}
+.image {padding: 5%; text-align: center;}
+.image img {width: 85%;}
+.container h1 {font-size: 2.3rem; padding: 0 8%; margin-top: -50px; color: azure;}
+.container h1 p, span {font-size: 1.5rem; font-weight: 300;}
+#particles-js {position: absolute; top: 0; height: 100vh; z-index: -1; opacity: .5;}
+.socialmedia ul {padding: 5% 8% 10% 8%;}
+.socialmedia ul li {display: inline-block; text-align: center;}
+.socialmedia ul li a .fa {width: 40px; height: 40px; line-height: 40px; background: #fff; font-size: 1.7rem; border-radius: 80px; color: #091540;}
+
+main {padding: 5% 0% 10% 0%;}
+main h1 {font-size: 1.8rem; font-weight: 600; color: #091540}
+main ul {padding: 5% ;}
+main h2 {font-size: 1.4rem; padding: 10px 0 10px 0; }
+main ul p  {padding-bottom: 5px;}
+main ul p a {text-decoration: none; color: #0B61AE;}
+main ul li {line-height: 25px;}
+
+aside {background: #abd3ff; padding: 13% 8% 13% 8%;}
+aside p, strong {padding-bottom: 5px; line-height: 25px;}
+strong {font-weight: 800;}
+.btn {padding: 5px 10px; background: #091540; color: #fff; border-radius: 30px; display: inline-block;}
+
+.skillbar{padding:10% 8% 10% 8%;}
+.w3-light-grey {width: 100%; background: #f1f1f1; border-radius: 30px; margin-bottom: 15px;}
+button {width: 100%; border: none; padding: 10px 0; font-weight: bold; background: #091540; color: white;}
