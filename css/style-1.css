@@ -33,4 +33,4 @@ strong {font-weight: 800;}
 
 .skillbar{padding:10% 8% 10% 8%;}
 .w3-light-grey {width: 100%; background: #f1f1f1; border-radius: 30px; margin-bottom: 15px;}
-.portfolio_btn {width: 100%; border: none; padding: 10px 0; font-weight: bold; background: #091540; color: white; text-decoration: none; color: white;}
+.portfolio_btn {border: none; margin: auto; text-align: center; padding: 10px; font-weight: bold; background: #091540; color: white; text-decoration: none; display: block;}
