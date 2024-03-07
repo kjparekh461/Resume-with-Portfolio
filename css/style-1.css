@@ -16,8 +16,8 @@ body {max-width: 420px; width: 100%; margin:auto;}
 .container h1 p, span {font-size: 1.5rem; font-weight: 300;}
 #particles-js {position: absolute; top: 0; height: 100vh; z-index: -1; opacity: .5;}
 .socialmedia ul {padding: 5% 8% 10% 8%;}
-.socialmedia ul li {display: inline-block; text-align: center;}
-.socialmedia ul li a .fa {width: 40px; height: 40px; line-height: 40px; background: #fff; font-size: 1.7rem; border-radius: 80px; color: #091540;}
+.socialmedia ul li {display: inline-block; text-align: center; padding: 5px;}
+.socialmedia ul li a {width: 40px; height: 40px; line-height: 40px; background: #fff; font-size: 1.7rem; border-radius: 80px; color: #091540; display: block;}
 
 main {padding: 5% 0% 10% 0%;}
 main h1 {font-size: 1.8rem; font-weight: 600; color: #091540}
